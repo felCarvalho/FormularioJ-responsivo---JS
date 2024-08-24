@@ -101,6 +101,7 @@
     font-weight: bold;
     background-color: rgb(181, 241, 241);
     transition: all 0.3s;
+    border: 2px solid rgb(102, 178, 178);
   }
   .display-flex-main .form .container-button .button-enviar:hover {
     height: 50px;
@@ -112,6 +113,7 @@
     background-color: azure;
     letter-spacing: 1.5px;
     font-weight: bold;
+    border: 2px solid rgb(102, 178, 178);
   }
   .rodapé {
     width: 100%;
@@ -275,9 +277,9 @@
     background-color: azure;
     letter-spacing: 1.5px;
     font-weight: bold;
-    background-color: rgb(218, 249, 249);
+    background-color: rgb(181, 241, 241);
     transition: all 0.3s;
-    border: 2px solid white;
+    border: 2px solid rgb(102, 178, 178);
   }
   .display-flex-tablet-desktop .container-button .button-enviar:hover {
     height: 60px;
@@ -456,7 +458,7 @@
     background-color: azure;
     letter-spacing: 1.5px;
     font-weight: bold;
-    background-color: rgb(218, 249, 249);
+    background-color: rgb(181, 241, 241);
     transition: all 0.3s;
     border: 2px solid white;
   }

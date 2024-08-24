@@ -10,7 +10,7 @@ formulario.addEventListener("submit", function (e) {
 
   const inputsValue = document.querySelectorAll("input");
 
-  for (let i = 0; 4 < inputsValue.length; i++) {
+  for (let i = 0; i < inputsValue.length; i++) {
     const valor = inputsValue[i].value;
 
     if (valor === "") {
@@ -35,5 +35,9 @@ const PoupUpDesativado = function () {
 
 close.addEventListener("click", function () {
   PoupUpDesativado();
+  const input = document.querySelectorAll("input");
+  for (let i = 0; i < input.length; i++) {
+    input[i].value = "";
+  }
   return;
 });
