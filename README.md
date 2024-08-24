@@ -1,0 +1,5 @@
+//Criação de formulario apenas para pratica de responsividade em todas as telas possiveis, do mobile chegando até mesmo em smarwatch.
+
+// aplicando também o uso do préprocessador CSS3 chamado SASS com o compilador do Dart SASS para transformar em CSS3.
+
+//testando aplicação construida no mobile first com um pequeno modal para aviso de verificação simples(porém clara e objetiva).
