@@ -21,13 +21,6 @@ formulario.addEventListener("submit", function (e) {
       PoupUpAtivado();
     }
   }
-
-  /*const verificar = document.querySelector(".button-enviar");
-  const user = document.querySelector(".inputUser").value;
-  const numero = Number(document.querySelector(".inputNumero").value);
-  const email = document.querySelector(".inputEmail").value;
-  const cpf = Number(document.querySelector(".CPF").value);
-  const nomeSocial = document.querySelector(".nomeSocial").value;*/
 });
 
 const PoupUpAtivado = function () {
@@ -44,11 +37,3 @@ close.addEventListener("click", function () {
   PoupUpDesativado();
   return;
 });
-
-/*if (
-  verificar.value === "" ||
-  user.value === "" ||
-  numero.Number(value) === "" ||
-  email.value === "" ||
-  cpf.Number(value) === ""
-)*/
