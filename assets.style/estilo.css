@@ -157,6 +157,19 @@
     backdrop-filter: blur(5px);
     margin-right: 3%;
     cursor: pointer;
+    border: 2px solid white;
+    transition: all 0.3s;
+  }
+  .container-mensagem-error #button-close:hover {
+    font-size: 35px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(206, 239, 239);
+    backdrop-filter: blur(5px);
+    margin-right: 3%;
+    cursor: pointer;
+    border: 2px solid rgb(102, 178, 178);
+    transition: all 0.3s;
   }
   .fundo-blur {
     position: fixed;
@@ -335,6 +348,19 @@
     backdrop-filter: blur(5px);
     margin-right: 3%;
     cursor: pointer;
+    border: 2px solid white;
+    transition: all 0.3s;
+  }
+  .container-mensagem-error #button-close:hover {
+    font-size: 35px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(206, 239, 239);
+    backdrop-filter: blur(5px);
+    margin-right: 3%;
+    cursor: pointer;
+    border: 2px solid rgb(102, 178, 178);
+    transition: all 0.3s;
   }
   .fundo-blur {
     position: fixed;
@@ -512,6 +538,19 @@
     backdrop-filter: blur(5px);
     margin-right: 3%;
     cursor: pointer;
+    border: 2px solid white;
+    transition: all 0.3s;
+  }
+  .container-mensagem-error #button-close:hover {
+    font-size: 35px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(206, 239, 239);
+    backdrop-filter: blur(5px);
+    margin-right: 3%;
+    cursor: pointer;
+    border: 2px solid rgb(102, 178, 178);
+    transition: all 0.3s;
   }
   .fundo-blur {
     position: fixed;
