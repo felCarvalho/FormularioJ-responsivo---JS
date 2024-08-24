@@ -154,6 +154,7 @@
     background-color: rgb(206, 239, 239);
     backdrop-filter: blur(5px);
     margin-right: 3%;
+    cursor: pointer;
   }
   .fundo-blur {
     position: fixed;
@@ -331,6 +332,7 @@
     background-color: rgb(206, 239, 239);
     backdrop-filter: blur(5px);
     margin-right: 3%;
+    cursor: pointer;
   }
   .fundo-blur {
     position: fixed;
@@ -507,6 +509,7 @@
     background-color: rgb(206, 239, 239);
     backdrop-filter: blur(5px);
     margin-right: 3%;
+    cursor: pointer;
   }
   .fundo-blur {
     position: fixed;
