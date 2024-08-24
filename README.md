@@ -2,4 +2,4 @@
 
 // aplicando também o uso do pré-processador CSS3 chamado SASS com o compilador do Dart SASS para transformar em CSS3.(baixado como pacote npm pelo NodeJS.)
 
-//testando aplicação construida no mobile first com um pequeno modal para aviso de verificação simples(porém clara e objetiva).
+//teste para construir aplicação utilizando mobile first com um pequeno modal para aviso de verificação simples(porém clara e objetiva).
