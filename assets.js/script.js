@@ -21,32 +21,32 @@ formulario.addEventListener("submit", function (e) {
     //guardando todos os valores dos input do html na variavel valor e usando trim(para ver se á espaços extra nos valores)
     const valor = inputsValue[i].value.trim();
 
-    //verificando se existe algum campo totalmente sem valor no form e exxibindo caso seja encontrado.
+    //verificando se existe algum campo totalmente sem valor no form e exibindo caso seja encontrado/ou concluindo o envio do formulario.
     if (valor === "") {
       verificar = false;
-      return;
-    }
-
-    if (!verificar === "") {
-      mensagemPouUp.textContent = `Formulario enviado com sucesso!`;
-      PoupUpAtivado();
-    } else {
       mensagemPouUp.textContent = `Preencha todos os campos!`;
+      PoupUpAtivado();
+      return;
+    } else {
+      mensagemPouUp.textContent = `Formulario enviado com sucesso!`;
       PoupUpAtivado();
     }
   }
 });
 
+//função de ativar o pop-up.
 const PoupUpAtivado = function () {
   PoupUp.classList.remove("delete");
   fundoBlur.classList.remove("delete");
 };
 
+//função de desativar pop-up.
 const PoupUpDesativado = function () {
   PoupUp.classList.add("delete");
   fundoBlur.classList.add("delete");
 };
 
+//função de apagar pop-up no button close.
 close.addEventListener("click", function () {
   PoupUpDesativado();
   const input = document.querySelectorAll("input");
