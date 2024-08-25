@@ -29,6 +29,7 @@
 
 @media (max-width: 576px) {
   * {
+    user-select: none;
     padding: 0;
     margin: 0;
   }
@@ -234,6 +235,7 @@
 
 @media (max-width: 890px) {
   * {
+    user-select: none;
     padding: 0;
     margin: 0;
     @include fonteStyle();
@@ -445,6 +447,7 @@
 
 @media (min-width: 891px) {
   * {
+    user-select: none;
     padding: 0;
     margin: 0;
     margin-top: 0;

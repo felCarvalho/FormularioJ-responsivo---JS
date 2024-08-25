@@ -12,8 +12,9 @@ formulario.addEventListener("submit", function (e) {
 
   for (let i = 0; i < inputsValue.length; i++) {
     const valor = inputsValue[i].value;
+    console.log(valor);
 
-    if (valor === "") {
+    if (valor.trim() === "") {
       mensagemPouUp.textContent = `Preencha todos os campos!`;
       PoupUpAtivado();
     } else {
